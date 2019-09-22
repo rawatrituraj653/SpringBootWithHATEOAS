@@ -1,0 +1,13 @@
+{
+	"bookId": "SPR123",
+	"bookName": "Spring",
+	"bookPrice": 500.0,
+	"_links": {
+		"self": {
+			"href": "http://localhost:9090/SBHATEOAS/book/getBook/SPR123"
+		},
+		"author": {
+			"href": "http://localhost:9090/SBHATEOAS/book/author/SPR123"
+		}
+	}
+}
